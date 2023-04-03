@@ -1,0 +1,146 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 0px auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+h4 {
+  font-size: 30px;
+}
+
+img {
+  color: var(--secondary-color);
+  max-width: 100%;
+}
+
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 25px;
+  line-height: 2;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+.nav-link {
+  font-size: 20px;
+}
+.launch {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  font-size: 25px;
+}
+#contact {
+  padding: 15px;
+  margin: 10px;
+}
+h2#contact {
+  font-size: 25px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 100%;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-size: 25px;
+  text-align: center;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 586px) {
+  img {
+    display: none;
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: 75px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h2 {
+    display: none;
+  }
+}
